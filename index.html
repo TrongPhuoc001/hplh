@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>To Lê Hiền</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="login">
+        <img src="bg1.png" alt="bg1">
+        <input class="c-checkbox" type="checkbox" id="checkbox">
+        <div class="c-formContainer">
+            <form class="c-form">
+                <input id="pass-input" class="c-form__input" placeholder="Mật khẩu là gì nhờ :)))" type="password" pattern="08052001" required>
+                <label class="c-form__buttonLabel" for="checkbox" id="send-btn">
+                    <button class="c-form__button" type="button" >Gửi</button>
+                </label>
+                <label class="c-form__toggle" for="checkbox" data-title="Gửi tới Lê Hin"></label>
+            </form>
+        </div>
+    </div>
+    <div class="content" id="content" style="display:none;">
+        <div class="test" id="test">
+            <p>Trả lời 1 câu hỏi nhỏ nào :)) <br> Huyn có xinh đẹp hongg</p>
+            <div class="actions">
+                <button class="c-button" type="button" id="yes-btn">Tất nhiên!</button>
+                <button class="c-button" type="button" id="hong-btn">Honggg</button>
+            </div>
+        </div>
+        <div class="true-content" id="true-content" style="display:none;">
+            <div class="chuc" id="chuc">
+
+            </div>
+            <img src="cute.png" alt="cute" width="300" height="300" id="anh">
+            <video src="" id="video" autoplay width="300" style="display: none;"></video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
